@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agusfix.Mg - Servicio Técnico de Celulares</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
+<meta name="description" content="Reparación de celulares Android e iPhone. Contá el problema, recibí un diagnóstico y coordiná todo por WhatsApp.">
+<link rel="icon" type="image/png" href="assets/logo-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="logo">
+      <img src="assets/logo-icon.png" alt="" class="logo-img">
+      <span class="logo-text">agusfix<span class="logo-dot">.mg</span></span>
+    </a>
+    <nav class="site-nav">
+      <a href="#servicios">Servicios</a>
+      <a href="#trabajos">Trabajos</a>
+      <a href="#cotizador">Cotizar</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn-ghost header-cta" href="#cotizador">Cotizar ahora</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO — DIAGRAMA ESQUEMÁTICO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Servicio técnico · Android &amp; iPhone</p>
+        <h1>Antes de traerlo,<br>ya sabés qué tiene.</h1>
+        <p class="hero-sub">
+          Contanos la marca, el modelo y qué le pasa a tu equipo.
+          Armamos el diagnóstico y coordinamos la reparación directo por WhatsApp.
+        </p>
+        <div class="hero-actions">
+          <a href="#cotizador" class="btn btn-signal">Iniciar diagnóstico</a>
+          <a href="#servicios" class="btn btn-outline">Ver reparaciones</a>
+        </div>
+      </div>
+      <div class="hero-diagram" aria-hidden="true">
+       <img src="assets/trabajos/logo.png" alt="agusfix.mg" class="hero-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICIOS ============ -->
+  <section id="servicios" class="services">
+    <div class="wrap">
+      <p class="eyebrow">¿Qué reparamos?</p>
+      <h2>Un problema, un diagnóstico.</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <span class="service-icon"></span>
+          <h3>Pantalla</h3>
+          <p>Roturas, manchas, táctil que no responde o líneas en la imagen.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon"></span>
+          <h3>Batería</h3>
+          <p>Se descarga rápido, se apaga solo o no llega al 100%.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon"></span>
+          <h3>Puerto de carga</h3>
+          <p>No carga, carga en una posición o el cable se mueve para cargar.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon"></span>
+          <h3>Cámara</h3>
+          <p>Foto borrosa, no enfoca, se traba la app o no abre.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon"></span>
+          <h3>Botones</h3>
+          <p>Encendido, volumen o botón físico que no responde bien.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon"></span>
+          <h3>Placa / diagnóstico</h3>
+          <p>Equipo mojado, no enciende, o falla sin causa visible a simple vista.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon"></span>
+          <h3>Audio y micrófono</h3>
+          <p>No se escucha en llamadas, altavoz distorsionado o micrófono cortado.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon"></span>
+          <h3>Tapa trasera / carcasa</h3>
+          <p>Vidrio trasero roto o carcasa dañada por golpe o caída.</p>
+        </div>
+      </div>
+      <p class="service-note">Trabajamos con equipos Android y iPhone. Si tu problema no está en la lista, contanos igual — lo vemos por WhatsApp.</p>
+    </div>
+  </section>
+
+  <!-- ============ TRABAJOS REALIZADOS ============ -->
+  <section id="trabajos" class="works">
+    <div class="wrap">
+      <p class="eyebrow">Algunos trabajos realizados</p>
+      <h2>Reparaciones reales, del taller.</h2>
+      <div class="works-grid">
+        <button class="work-item" data-index="0">
+          <img src="assets/trabajos/repa1.png" alt="Cambio de módulo — iPhone 13" loading="lazy">
+          <span class="work-caption">Cambio de módulo<br><strong>iPhone 13</strong></span>
+        </button>
+        <button class="work-item" data-index="1">
+          <img src="assets/trabajos/repa2.png" alt="Cambio de batería — iPhone 13" loading="lazy">
+          <span class="work-caption">Cambio de batería<br><strong>iPhone 13</strong></span>
+        </button>
+        <button class="work-item" data-index="2">
+          <img src="assets/trabajos/repa3.png" alt="Cambio de módulo — Samsung A03 Core" loading="lazy">
+          <span class="work-caption">Cambio de módulo<br><strong>Samsung A03 Core</strong></span>
+        </button>
+        <button class="work-item" data-index="3">
+          <img src="assets/trabajos/repa4.png" alt="Cambio de módulo y batería — Moto E14" loading="lazy">
+          <span class="work-caption">Cambio de módulo y batería<br><strong>Moto E14</strong></span>
+        </button>
+        </button>
+        <button class="work-item" data-index="5">
+          <img src="assets/trabajos/repa6.png" alt="Cambio de módulo — iPhone 8 Plus" loading="lazy">
+          <span class="work-caption">Cambio de módulo<br><strong>iPhone 8 Plus</strong></span>
+        </button>
+        <button class="work-item" data-index="6">
+          <img src="assets/trabajos/repa7.png" alt="Cambio de módulo — Samsung A13" loading="lazy">
+          <span class="work-caption">Cambio de módulo<br><strong>Samsung A13</strong></span>
+        </button>
+        <button class="work-item" data-index="7">
+          <img src="assets/trabajos/repa8.png" alt="Cambio de módulo — Moto G15" loading="lazy">
+          <span class="work-caption">Cambio de módulo<br><strong>Moto G15</strong></span>
+        </button>
+        <button class="work-item" data-index="8">
+          <img src="assets/trabajos/repa9.png" alt="Cambio de batería — iPhone 11" loading="lazy">
+          <span class="work-caption">Cambio de batería<br><strong>iPhone 11</strong></span>
+        </button>
+        <button class="work-item" data-index="9">
+          <img src="assets/trabajos/repa10.png" alt="Cambio de módulo — iPhone XR" loading="lazy">
+          <span class="work-caption">Cambio de módulo<br><strong>iPhone XR</strong></span>
+        </button>
+      </div>
+      <p class="service-note">Más trabajos del día a día en <a href="https://instagram.com/agusfix.mg" target="_blank" rel="noopener">@agusfix.mg</a>.</p>
+    </div>
+  </section>
+
+  <!-- Visor ampliado de trabajos -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Anterior">‹</button>
+    <figure class="lightbox-figure">
+      <img src="" alt="" id="lightbox-img">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Siguiente">›</button>
+  </div>
+
+  <!-- ============ COTIZADOR — ELEMENTO FIRMA ============ -->
+  <section id="cotizador" class="quoter">
+    <div class="wrap quoter-grid">
+      <div class="quoter-intro">
+        <p class="eyebrow">Diagnóstico rápido</p>
+        <h2>Contanos qué pasó.</h2>
+        <p>
+          Completá estos datos y armamos un resumen del caso. Lo enviás por WhatsApp
+          y desde ahí te confirmamos el precio y el tiempo de reparación —
+          esta pantalla no calcula precios automáticamente, es el primer paso del diagnóstico.
+        </p>
+      </div>
+
+      <form class="quoter-panel" id="quote-form">
+        <div class="panel-header">
+          <span class="panel-dot"></span>
+          <span>FORMULARIO DE DIAGNÓSTICO</span>
+        </div>
+
+        <div class="field-row">
+          <label for="dispositivo">Dispositivo</label>
+          <select id="dispositivo" required>
+            <option value="" disabled selected>Elegí una opción</option>          
+            <option value="Celular">Celular</option>
+            <option value="Tablet">Tablet</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </div>
+
+        <div class="field-row two-col">
+          <div>
+            <label for="marca">Marca</label>
+            <input type="text" id="marca" placeholder="Ej: Apple, Samsung, Motorola" required>
+          </div>
+          <div>
+            <label for="modelo">Modelo</label>
+            <input type="text" id="modelo" placeholder="Ej: iPhone 12, A54" required>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <label for="problema">¿Qué tipo de problema tiene?</label>
+          <select id="problema" required>
+            <option value="" disabled selected>Elegí una opción</option>
+            <option value="Pantalla">Pantalla</option>
+            <option value="Batería">Batería</option>
+            <option value="Puerto de carga">Puerto de carga</option>
+            <option value="Cámara">Cámara</option>
+            <option value="Botones">Botones</option>
+            <option value="Placa / no enciende">Placa / no enciende</option>
+            <option value="Audio o micrófono">Audio o micrófono</option>
+            <option value="Tapa trasera / carcasa">Tapa trasera / carcasa</option>
+            <option value="Otro">Otro / no estoy seguro</option>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <label for="detalle">Contanos un poco más (opcional)</label>
+          <textarea id="detalle" rows="3" placeholder="Ej: se cayó y quedó la pantalla partida en la esquina de abajo"></textarea>
+        </div>
+
+        <div class="field-row two-col">
+          <div>
+            <label for="nombre">Tu nombre</label>
+            <input type="text" id="nombre" placeholder="Nombre" required>
+          </div>
+          <div>
+            <label for="zona">Zona (opcional)</label>
+            <input type="text" id="zona" placeholder="Barrio / localidad">
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-signal btn-block">
+          Enviar diagnóstico por WhatsApp
+        </button>
+        <p class="quoter-fineprint">Se abre WhatsApp con el resumen ya escrito. Vos lo revisás antes de enviarlo.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ CÓMO FUNCIONA ============ -->
+  <section id="como-funciona" class="steps">
+    <div class="wrap">
+      <p class="eyebrow">¿Cómo funciona?</p>
+      <h2>Tres pasos, sin vueltas.</h2>
+      <ol class="steps-list">
+        <li>
+          <span class="step-index">01</span>
+          <h3>Completás el diagnóstico</h3>
+          <p>Completás el dispositivo y el problema en el formulario de arriba.</p>
+        </li>
+        <li>
+          <span class="step-index">02</span>
+          <h3>Confirmamos por WhatsApp</h3>
+          <p>Te respondemos con el precio estimado y el tiempo de reparación.</p>
+        </li>
+        <li>
+          <span class="step-index">03</span>
+          <h3>Traés el equipo y lo reparamos</h3>
+          <p>Coordinamos día y horario, y te avisamos apenas está listo.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section id="contacto" class="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Contacto directo</p>
+        <h2>¿Preferís escribir directo?</h2>
+        <p>También podés escribirnos sin pasar por el formulario.</p>
+        <div class="contact-links">
+          <a class="btn btn-signal" id="whatsapp-direct" href="#" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+          <a class="btn btn-outline" href="https://instagram.com/agusfix.mg" target="_blank" rel="noopener">Instagram @agusfix.mg</a>
+        </div>
+      </div>
+      <div class="contact-meta">
+        <p><strong>Ubicación:</strong> Monte Grande</p>
+        <p><strong>Horario de atención:</strong> Lunes a viernes de 8 a 20 hs</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span class="footer-brand">
+      <img src="assets/trabajos/logo-icon.png" alt="agusfix.mg" class="footer-logo">
+       Servicio técnico de celulares
+    </span>
+    <span>© <span id="year"></span></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
