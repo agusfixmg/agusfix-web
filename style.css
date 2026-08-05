@@ -4,8 +4,8 @@
   --bg-panel:   #131210;
   --bg-panel-2: #0B0A09;
   --bg-section: #0E0D0B;
-  --line-gold: #C9A24C;
-  --line-gold-dim: rgba(201,162,76,0.30);
+  --line-gold: #C89A48;
+  --line-gold-dim: rgba(224, 198, 46, 0.3);
   --text-light: #F5F4F0;
   --text-light-dim: #9C9488;
   --signal:    #D4AF37;
@@ -95,10 +95,10 @@ p{ margin: 0 0 1em 0; }
   justify-content:space-between;
   height: 68px;
 }
-.logo{ display:flex; align-items:center; gap:.6em; text-decoration:none; color: var(--text-light); }
+.logo{ display:flex; align-items:center; gap:.6em; text-decoration:none; color: var(--line-gold); }
 .logo-img{ height: 34px; width: auto; display:block; }
 .logo-text{ font-family: var(--font-display); font-weight:700; letter-spacing:.01em; font-size:1.1rem; }
-.logo-dot{ color: var(--line-gold); }
+.logo-dot{ color: var(--text-light); }
 .site-nav{ display:flex; gap: 2em; }
 .site-nav a{
   color: var(--text-light-dim);
