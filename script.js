@@ -1,10 +1,4 @@
-// ============================================================
-// CONFIGURACIÓN — revisar antes de publicar
-// ============================================================
-// Número de WhatsApp en formato internacional para wa.me:
-// 54 (Argentina) + 9 + código de área + número, SIN el 15.
-// Antes de publicar, probá los botones de WhatsApp para
-// confirmar que abren el chat correcto.
+
 const WHATSAPP_NUMBER = "5491122951854";
 
 // ============================================================
@@ -99,7 +93,7 @@ if (workItems.length && lightbox) {
 // ============================================================
 const directLink = document.getElementById("whatsapp-direct");
 if (directLink) {
-  const mensajeDirecto = "Hola! Quería consultar por una reparación.";
+  const mensajeDirecto = "Hola! Quiero consultar por una reparación.";
   directLink.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(mensajeDirecto)}`;
 }
 
@@ -121,10 +115,13 @@ if (form) {
     const zona = document.getElementById("zona").value.trim();
 
     const lineas = [
-      "Hola! Quiero consultar por una reparación 🔧",
+      "Hola! Quiero consultar por una reparación.",
       "",
+
       `Dispositivo: ${dispositivo}`,
+
       `Marca / modelo: ${marca} ${modelo}`,
+      
       `Problema: ${problema}`,
     ];
 
