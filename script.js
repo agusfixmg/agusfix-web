@@ -119,9 +119,11 @@ if (form) {
       "",
 
       `Dispositivo: ${dispositivo}`,
+      "",
 
       `Marca / modelo: ${marca} ${modelo}`,
-      
+      "",
+
       `Problema: ${problema}`,
     ];
 
